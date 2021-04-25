@@ -634,6 +634,10 @@ section {
 /*--------------------------------------------------------------
 # About Video
 --------------------------------------------------------------*/
+.center{
+  padding-left: 15%;
+}
+
 .about-video .content {
   font-size: 15px;
 }
@@ -796,18 +800,19 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+  padding-top: 30px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10%;
-  margin: 0 auto;
+  margin: 0 auto;	
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 25px 0;
   color: #111;
 }
 
@@ -853,7 +858,7 @@ section {
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
-  bottom: -20px;
+  top: 0px;
   left: calc(50% - 20px);
 }
 
@@ -1511,7 +1516,6 @@ section {
 .faq .faq-list a.collapsed {
   color: #343a40;
 }
-
 
 .faq .faq-list a.collapsed:hover {
   color: #144F00;
