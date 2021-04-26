@@ -52,11 +52,45 @@
 					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
 					<li><a class="nav-link scrollto" href="#about">Objetivos</a></li>
 					<li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-					<li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li>
+					<li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
 					<li><a class="nav-link scrollto" href="#team">Equipe</a></li>
 					<li><a class="nav-link scrollto" href="#faq">Perguntas</a></li>
 					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-					<li><a class="getstarted scrollto" href="#">Login</a></li>
+					<li class="dropdown">
+						<a class="getstarted scrollto">
+							Login 
+						<i class="bi bi-chevron-down"></i>
+						</a>
+						<ul>
+			              	<div class="test">
+									<div class="mb-3">
+									  <label for="email" class="form-label">
+											Digite seu e-mail
+											<input type="email" class="form-control" id="email" placeholder="name@example.com">
+									  </label>
+									</div>
+								
+									<div class="mb-3">
+									  <label for="password" class="form-label">
+											Digite sua senha
+										 	<input type="password" class="form-control" id="password" placeholder="Senha">
+									  </label>
+									</div>
+								
+									<div class="mb-3">
+									  <div class="form-check">
+										<input type="checkbox" class="form-check-input" id="dropdownCheck">
+										<label class="form-check-label" for="dropdownCheck">
+										  Lembrar
+										</label>
+									  </div>
+									</div>
+								
+									<button onclick="login()" class="btn btn-primary">Acesso</button>
+									<input readonly id="mensagem">
+							</div>
+            			</ul>
+					</li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -126,7 +160,7 @@
           <p>Coleta em ação uma ação cooperativa para preservação do meio ambiente. </p>
         </div>
 
-      <div  <section id="services" class="services section-bg">
+      <div>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">  
@@ -300,7 +334,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Seviços</h2>
+          <h2>Serviços</h2>
           <p> Ao se cadastrar em nosso projeto você terá acesso a uma plataforma digital com um mapa e serviço de GPS ativo para ter acesso a informações como a localização, o tipo e quantidade de material que está disponível pra ser coletado, além de informar a destinação do mesmo e os fins que este material terá. </p>
         </div>
 
@@ -857,6 +891,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/js/script.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

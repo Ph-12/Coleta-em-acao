@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #144F00;
+  color: #100F00;
 }
 
 .navbar .getstarted {
@@ -212,13 +212,50 @@ h1, h2, h3, h4, h5, h6 {
   background: #00A244;
 }
 
+.test {
+	width: 350px;
+	height: 300px;
+	border-radius: 5px;
+	  opacity: 1;
+  border: 8px solid rgba(36, 162, 32, 0.7);
+  background: rgba(198, 16, 0, 0);
+	
+}
+
+.test .mb-3 {
+	margin: 0 27%;
+}
+
+.test .mb-3 .form-label input{
+	width: 250px;
+	margin-left: -50px;
+}
+
+.form-check {
+	margin-top: -20px;
+	margin-left: -50px;
+}
+
+.form-check-input:checked{
+	background: #144F00;
+}
+
+.btn-primary{
+	margin-left: 10%;
+	background: #144F00;
+}
+
+.btn-primary:hover{
+	background: #00A244;
+}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  right: 0px;
   top: calc(100% + 30px);
   margin: 0;
-  padding: 10px 0;
+  padding: 2px 0;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -382,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg1.jpg") top center;
   background-size: cover;
   position: relative;
 }
